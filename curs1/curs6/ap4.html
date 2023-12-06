@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <h2>Formular de contact</h2>
+    <form action="" method="post"> enctype="multiport/form-data">
+
+    <label for="oras"> Selecteaza orasul</label>
+    <select name="oras" id="oras" required>
+        
+        <option value="1">Bucuresti</option>
+        <option value="2">Arad</option>
+        <option value="3">Deva</option>
+        <option value="4">Iasi</option>
+        
+    </select>
+
+</div>
+<div>
+    <label for="">Cursurile dorite </label>
+    <select name="cursuri"> id="cursuri" multiple>
+    <option value="html">-html</option>
+    <option value="html">-css</option>
+    <option value="html">-js</option>
+    <option value="html">-react</option>
+                    
+        </select>
+
+</div>
+<fieldset>
+    <legend> Program cursuri</legend>
+    <label for="dimineata">dimineata</label>
+    <input> type="radio" name="program" id="dim" value="dimineata">
+    <label for="pranz">pranz</label>
+    <input> type="radio" name="program" id="pranz" value="pranz" disabled>
+    <label for="seara">seara</label>
+    <input> type="radio" name="program" id="seara" value="seara" checked>
+    </fieldset>
+
+    <div>
+        <input type="checkbox" name="termeni" value="1">
+        <label for="abonat"> Ma abonez</label> 
+    </div>
+    <div>
+        <input type="submit" value="Trimite datele">
+    </div>
+</form>
+
+</body>
+</html>
