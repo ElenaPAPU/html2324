@@ -26,6 +26,7 @@ body{
     padding: 20px;
     clear: both;
     text-align: center;
+    display: inline-block;
 }
 .col2>main{
     width: 60%;
